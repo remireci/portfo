@@ -37,6 +37,3 @@ def submit_form():
             return 'did not save to database'
     else:
         return 'something went wrong, try again'
-
-if __name__ == "__main__":
-    app.run(ssl_context=('cert.pem', 'key.pem'))
